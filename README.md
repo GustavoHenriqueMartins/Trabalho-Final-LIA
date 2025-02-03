@@ -69,6 +69,8 @@ void loop()
 }
 
 
+
+
 COMO CARREGAR O CÓDIGO NO ARDUINO IDE
 
 1.Abra a IDE do Arduino.
@@ -78,6 +80,8 @@ COMO CARREGAR O CÓDIGO NO ARDUINO IDE
 3.Selecione a placa "Arduino UNO" (ou a placa que você estiver utilizando) e a porta correta.
 
 4.Carregue o código na placa Arduino.
+
+
 
 USO
 
