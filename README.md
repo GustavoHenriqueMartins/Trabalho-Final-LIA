@@ -2,7 +2,7 @@
 
 Este projeto tem o objetivo de fazer com que cada tecla do piano toque uma nota específica no buzzer.
 
-Componentes utilizados:
+## Componentes utilizados:
 
 -Arduino Uno.
 
@@ -14,17 +14,17 @@ Componentes utilizados:
 
 -3 Resistores (10kΩ) para os botões e 1 resistor (220Ω) para o buzzer.
 
-COMO FUNCIONA
+## COMO FUNCIONA
 
 O código utiliza 3 botões ligados aos pinos 8, 9 e 10 e o buzzer ligado ao pino 11. Quando uma das teclas dos botões é pressionada, o buzzer produz a nota correspondente àquela tecla.
 
-EXPLICAÇÃO DO CÓDIGO
+## EXPLICAÇÃO DO CÓDIGO
 
 Função setup(): Configura os pinos dos botões como entradas com pull-up interno. Também configura o pino do buzzer como saída.
 
 Função loop(): Verifica continuamente o estado dos botões. Quando um botão é pressionado, o buzzer toca a nota associada. Quando o botão é solto, o som do buzzer para.
 
-CÓDIGO:
+## CÓDIGO:
 
 Código:
 
@@ -71,7 +71,7 @@ void loop()
 
 
 
-COMO CARREGAR O CÓDIGO NO ARDUINO IDE
+## COMO CARREGAR O CÓDIGO NO ARDUINO IDE
 
 1.Abra a IDE do Arduino.
 
@@ -83,7 +83,7 @@ COMO CARREGAR O CÓDIGO NO ARDUINO IDE
 
 
 
-USO
+## USO
 
 1.Conecte os botões e o buzzer ao Arduino conforme as instruções.
 
