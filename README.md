@@ -24,7 +24,7 @@ Função setup(): Configura os pinos dos botões como entradas com pull-up inter
 
 Função loop(): Verifica continuamente o estado dos botões. Quando um botão é pressionado, o buzzer toca a nota associada. Quando o botão é solto, o som do buzzer para.
 
-## CÓDIGO:
+## Código:
 
 Código:
 
