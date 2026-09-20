@@ -1,32 +1,28 @@
 # 3-KEY PIANO PROJECT
 
-Este projeto tem o objetivo de fazer com que cada tecla do piano toque uma nota específica no buzzer.
+The goal of this project is to make each piano key play a specific note on the buzzer.
 
-## Componentes utilizados:
+## Components used:
 
--Arduino Uno.
+Arduino Uno
+Jumper wires and Breadboard
+3 pushbuttons
+1 Buzzer
+Three 10kΩ resistors (for the buttons) and one 220Ω resistor (for the buzzer)
 
--Jumpers e Protoboard.
+## How it works
 
--3 botões.
+The code uses 3 pushbuttons connected to pins 8, 9, and 10, and the buzzer connected to pin 11. When one of the buttons is pressed, the buzzer produces the note corresponding to that key.
 
--1 Buzzer.
+## Code Explanation
 
--3 Resistores (10kΩ) para os botões e 1 resistor (220Ω) para o buzzer.
+setup() function: Configures the button pins as inputs and the buzzer pin as an output. (Nota técnica: embora o texto original mencione pull-up interno, o código fornecido usa INPUT comum com resistores externos de 10kΩ).
 
-## Como funciona
+loop() function: Continuously checks the state of the buttons. When a button is pressed, the buzzer plays the associated note. When the button is released, the buzzer stops emitting sound.
 
-O código utiliza 3 botões ligados aos pinos 8, 9 e 10 e o buzzer ligado ao pino 11. Quando uma das teclas dos botões é pressionada, o buzzer produz a nota correspondente àquela tecla.
+## Code:
 
-## Explicação do código
-
-Função setup(): Configura os pinos dos botões como entradas com pull-up interno. Também configura o pino do buzzer como saída.
-
-Função loop(): Verifica continuamente o estado dos botões. Quando um botão é pressionado, o buzzer toca a nota associada. Quando o botão é solto, o som do buzzer para.
-
-## Código:
-
-Código:
+Code:
 
 void setup()
 
@@ -71,20 +67,15 @@ void loop()
 
 
 
-## Como carregar o código no ARDUINO IDE
+## How to upload the code to the Arduino IDE
 
-1.Abra a IDE do Arduino.
-
-2.Copie e cole o código no editor.
-
-3.Selecione a placa "Arduino UNO" (ou a placa que você estiver utilizando) e a porta correta.
-
-4.Carregue o código na placa Arduino.
+1.Open the Arduino IDE.
+2.Copy and paste the code into the editor.
+3.Select the "Arduino UNO" board (or the board you are currently using) and the correct port.
+4.Upload the code to the Arduino board.
 
 
+## Usage
 
-## Uso
-
-1.Conecte os botões e o buzzer ao Arduino conforme as instruções.
-
-2.Após carregar o código, pressione os botões para tocar as notas correspondentes no buzzer.
+1.Connect the buttons and the buzzer to the Arduino according to the instructions.
+2.After uploading the code, press the buttons to play the corresponding notes on the buzzer.
