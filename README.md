@@ -70,12 +70,16 @@ void loop()
 ## How to upload the code to the Arduino IDE
 
 1.Open the Arduino IDE.
+
 2.Copy and paste the code into the editor.
+
 3.Select the "Arduino UNO" board (or the board you are currently using) and the correct port.
+
 4.Upload the code to the Arduino board.
 
 
 ## Usage
 
 1.Connect the buttons and the buzzer to the Arduino according to the instructions.
+
 2.After uploading the code, press the buttons to play the corresponding notes on the buzzer.
