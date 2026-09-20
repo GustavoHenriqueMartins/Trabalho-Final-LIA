@@ -1,4 +1,4 @@
-# PROJETO PIANO DE 3 TECLAS
+# 3-KEY PIANO PROJECT
 
 Este projeto tem o objetivo de fazer com que cada tecla do piano toque uma nota específica no buzzer.
 
